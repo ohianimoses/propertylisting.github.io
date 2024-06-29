@@ -1,0 +1,170 @@
+/* header design */
+.navbar-nav{
+
+    font-size: 12px;
+    font-family: poppins;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    
+    
+    }
+    
+    
+    /* navbar design */
+    .navbar{
+    
+    background-color: #1877f2;
+    
+    
+    }
+    
+    
+    /* brand logo */
+    .navbar-brand{
+    
+    
+        color: white;
+        font-family: fantasy;
+        letter-spacing: 5px;
+        
+    }
+    
+    
+    
+    .navbar-expand-lg .navbar-nav .nav-link{
+    
+    
+    color: white;
+    margin: 8px;
+    letter-spacing: 2px;
+    
+    }
+    
+    .navbar-brand:hover{
+    
+    color: white;
+    
+    }
+
+
+
+
+
+body {
+
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+.properties-container {
+
+    margin-top: 20px;
+    
+
+}
+
+.property-card {
+
+margin-top: 20px;
+
+}
+
+.se-prop {
+
+margin-bottom: 20px;
+border-radius: 20px;
+
+}
+
+button {
+
+    background-color: green;
+    border-radius: 5px;
+    /* color: white; */
+
+
+
+
+}
+
+input {
+
+    padding: 2px;
+    margin: 2px;
+    border-radius: 4px;
+    border-color: #adb5bd;
+
+
+
+}
+
+
+
+.card {
+
+    margin-top: 2rem;
+
+
+
+}
+
+.form-group {
+
+margin-bottom: 1rem;
+
+}
+
+.form-control {
+
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    box-shadow: 0 0 0 0.1rem
+    rgba(0, 0, 0, 0.1);
+
+
+}
+
+.btn-primary {
+    background-color: #007bff;
+    margin-top: 0.5rem;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+
+
+
+}
+
+select {
+
+    border-color: #adb5bd;
+    border-radius: 4px;
+}
+
+
+.card-img-top{
+
+    height: 300px;
+    object-fit: cover;
+
+
+
+
+
+
+}
+
+a{
+
+
+    color: white;
+    text-decoration: none;
+    
+    
+}

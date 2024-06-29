@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Listing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="./pics/h8.jpg" type="image/x-icon">
+</head>
+<body>
+    
+<div class="container">
+    <div class="header">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand ms-5" href="./index.html">Nigeria <span>Properties</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav ">
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Home</a>
+                  </li>
+
+                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="./sale.html">For Sale</a>
+                  </li>
+
+                  <li class="nav-item">
+
+                    <a class="nav-link" href="./for-rent.html">For Rent</a>
+                  </li>
+
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Consult.html">Consult</a>
+                  </li>
+
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./Signup.html">Register</a>
+                  </li>
+
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./login.html">Login</a>
+                  </li>
+
+                  
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="./About.html">About Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          </div>
+          <!-- Navbar ends here -->
+          
+
+          <div class="row">
+
+<div class="col-lg-12">
+
+    <h1 class="text-center" style="color:green; font-weight: bold; font-family: poppins;" >Properties <span style="color: red;"><hr></span></h1>
+
+    <div class="se-prop">
+
+
+        <input type="search" id="search-input" placeholder="Search Properties">
+        <button id="search-button">Search</button>
+
+    </div>
+
+    <div class="properties-container" style="background-color: #1877f2;">
+
+
+        <!-- properties will be listed here -->
+
+    </div>
+
+    <div class="upload-property-form">
+
+        <h2 style="color: red; font-weight: bold; font-family: poppins;">Upload Property</h2>
+        <form action="">
+            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="description" placeholder="Description">
+            <input type="number" id="price" placeholder="Price">
+            <input type="file" id="image" placeholder="Image">
+            <input type="text" id="Location" placeholder="Location">
+            <input type="tel" id="phone" placeholder="Phone">
+            <button id="upload-property-button">Upload</button>
+
+
+        </form>
+
+    </div>
+
+    <div class="container mt-3">
+
+        <hr>
+
+
+      <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+       
+     
+        <!-- carousel indicator -->
+
+       <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+       
+       
+       
+       
+       
+        <div class="carousel-inner">
+       
+       <!-- carousel images -->
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="./pics/h9.jpg" class="d-block w-100" alt="...">
+          </div>
+       
+          
+          <!-- carousel caption here -->
+          <div class="carousel-caption d-none d-md-block">
+
+
+            <h1>4 Bedroom Duplex Available in Lekki, Lagos</h1>
+
+            <p>N950,000 agent and legal fee inclusive</p>
+            <a href="" class="btn btn-primary btn-sm">Click Here</a>
+
+           
+
+
+
+
+          </div>
+
+
+
+
+         <!-- Carousel images -->
+          <div class="carousel-item" data-bs-interval="1500">
+            <img src="./pics/h36.jpg" class="d-block w-100" alt="...">
+          </div>
+
+          <!-- carousel caption here -->
+          <div class="carousel-caption d-none d-md-block">
+
+
+            <h1>4 Bedroom Duplex Available in Lekki, Lagos</h1>
+
+            <p>N950,000 agent and legal fee inclusive</p>
+            <a href="./Consult.html" class="btn btn-primary btn-sm">Click Here</a>
+
+
+
+          </div>
+
+       
+          <!-- Carousel images -->
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./pics/h11.jpg" class="d-block w-100" alt="...">
+          </div>
+
+          <!-- carousel caption here -->
+          <div class="carousel-caption d-none d-md-block">
+
+
+
+
+          </div>
+
+
+
+
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+
+      </div>
+</div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+<script src="./script.js"></script>
+</body>
+</html>
